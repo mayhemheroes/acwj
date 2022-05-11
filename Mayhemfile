@@ -1,0 +1,5 @@
+project: rnshah9/acwj
+target: parser
+
+cmds:
+  - cmd: /acwj/02_Parser/parser @@
