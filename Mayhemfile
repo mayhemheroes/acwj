@@ -2,4 +2,4 @@ project: acwj
 target: parser
 
 cmds:
-  - cmd: /acwj/02_Parser/parser @@
+  - cmd: /parser @@
