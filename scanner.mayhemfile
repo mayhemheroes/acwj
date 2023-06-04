@@ -1,0 +1,5 @@
+project: acwj
+target: scanner
+
+cmds:
+  - cmd: /acwj/01_Scanner/scanner @@
