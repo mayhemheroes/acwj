@@ -141,10 +141,15 @@ I'll use a PC running Lubuntu 18.04 as the Intel target, and a Raspberry
 Pi running Raspbian as the ARM target.
 
 On the Intel platform, we are going to need an existing C compiler.
-So, install this package (I give the Ubuntu/Debian commands):
+So, install a few packages by doing on Debian/Ubuntu:
 
 ```
-  $ sudo apt-get install build-essential
+  $ sudo apt-get install build-essential git
+```
+
+For Arch Linux the command is
+```
+ $ sudo pacman -S base-devel git
 ```
 
 If there are any more tools required for a vanilla Linux
